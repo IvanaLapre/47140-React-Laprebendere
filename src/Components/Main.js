@@ -8,8 +8,8 @@ function Main () {
     <main>
       <h2>Home</h2>
       <ItemListContainer
-      saludo="Bienvenido a Volando!"
-      slogan="Volando llegas a todo el mundo"
+      saludo="Bienvenido a MiHogar!"
+      slogan="Transformando espacios, creando hogares."
       />
       <img src={logo} alt="logo"/>
     </main>

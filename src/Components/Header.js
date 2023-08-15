@@ -6,7 +6,7 @@ import Navlinks from "./Navlinks"
 return(
 
 <header id="header" className="header flex justify-between py-4 px-2 bg-slate-800 text-white">
-  <h1>Volando!</h1>
+  <h1>MiHogar</h1>
   <Navlinks
     vuelos= "Vuelos"
     hoteles="Hoteles"
