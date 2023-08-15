@@ -1,4 +1,3 @@
-import logo from "../Components/img/logo192.png" 
 import ItemListContainer from "./ItemListContainer"
 
 function Main () {
@@ -11,7 +10,6 @@ function Main () {
       saludo="Bienvenido a MiHogar!"
       slogan="Transformando espacios, creando hogares."
       />
-      <img src={logo} alt="logo"/>
     </main>
     )
     }

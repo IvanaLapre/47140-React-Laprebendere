@@ -5,7 +5,7 @@ function Footer () {
     return(
     
 <footer id="footer" className="footer">
-<p>Copyrigth &copy; Ivana Laprebendere 2023</p>
+<p>Copyrigth &copy;</p>
 <Navlinks/>
 </footer>
     )
