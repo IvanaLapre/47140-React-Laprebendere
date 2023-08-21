@@ -1,9 +1,10 @@
-import React from 'react'
+
+import cart from '../img/shopping_cart.svg';
 
 function CartWidget() {
   return (
     <div>
-        <i className='material-icons'>shopping_cart</i>
+        <img src={cart} className="cart" alt="cart"></img>
         <span>1</span>
     </div>
   )

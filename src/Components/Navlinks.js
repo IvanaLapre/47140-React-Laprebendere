@@ -1,4 +1,4 @@
-import React from 'react'
+import {Link} from "react-router-dom"
 
 function Navlinks(parametros) {
 
@@ -6,9 +6,9 @@ function Navlinks(parametros) {
 
   return (
     <nav className='flex gap-4'>
-    <a href="#">{parametros.vuelos}</a>
-    <a href="#">{parametros.hoteles}</a>
-    <a href="#">{parametros.transportes}</a>
+    <Link to="/">Home</Link>
+    <Link to="/productos">Productos</Link>
+    <Link to="/contactanos">Contactanos</Link>
   </nav>
   )
 }
